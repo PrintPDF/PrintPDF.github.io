@@ -1,0 +1,7 @@
+body {  
+    margin: 0 auto;
+    width: 80%; 
+    max-width: 1200px; 
+    padding: 20px;  
+    box-sizing: border-box; 
+}  
