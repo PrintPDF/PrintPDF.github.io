@@ -1,13 +1,12 @@
 body {
   margin: 0 auto;
-  width: 80%;
+  width: 50%;
   max-width: 1200px;
   padding: 20px;
   box-sizing: border-box;
 }
 #carousel__container {
   position: relative;
-  width: 80%;
   display: flex;
   overflow: hidden;
 }
