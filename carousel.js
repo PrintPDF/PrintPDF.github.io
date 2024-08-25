@@ -1,14 +1,11 @@
 const images = Array.from(document.getElementsByClassName("carousel__img"));
 const totalImages = images.length;
-
 let currentImageIndex = 0;
-
 function addTransitionEffectToImages() {
   images.forEach((img) => {
     img.style.transition = "transform 1s ease";
   });
 }
-
 function showNextImage() {
   if (currentImageIndex == totalImages - 1) {
     showPrevImage();
@@ -20,7 +17,6 @@ function showNextImage() {
     currentImageIndex++;
   }
 }
-
 function showPrevImage() {
   if (currentImageIndex === 0) return;
   images.forEach((img) => {
