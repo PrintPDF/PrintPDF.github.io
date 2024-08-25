@@ -1,9 +1,17 @@
-body {
-  margin: 0 auto;
-  width: 50%;
-  max-width: 1200px;
-  padding: 20px;
-  box-sizing: border-box;
+.container {
+  width: 50%; 
+  margin: auto; 
+  max-width: 1920px;
+}
+@media (max-width: 1152px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (min-width: 1153px) and (max-width: 1600px) {
+  .container {
+    width: 70%;
+  }
 }
 #carousel__container {
   position: relative;
